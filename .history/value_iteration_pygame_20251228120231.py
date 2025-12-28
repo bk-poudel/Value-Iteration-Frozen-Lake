@@ -5,8 +5,8 @@ import time
 # You can make this 3x3, 4x4, 8x8, etc.
 # Just ensure it's a square or rectangle.
 MY_MAP = [
-    "SFFH",
-    "FFHG", # The Goal 'G' is now here
+    "SHFF",
+    "FHHG", # The Goal 'G' is now here
     "HFHF",
     "FFFF"
 ]
