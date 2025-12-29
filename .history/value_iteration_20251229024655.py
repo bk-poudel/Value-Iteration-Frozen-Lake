@@ -31,9 +31,6 @@ class ValueIteration:
                         max_value = expected_value
                 new_value_table[i, j] = max_value
         self.value_table = new_value_table
-        print(f"Updated Value Table: ")
-        self.print_value_table()
-        print("--------------------------------------------------")
     def run_value_iteration(self, iterations=100, delta_e=0.0001):
         for _ in range(iterations):
             old_value_table = np.copy(self.value_table)
